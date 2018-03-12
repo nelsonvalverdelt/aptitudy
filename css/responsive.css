@@ -39,6 +39,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     .header_area {
         padding: 0;
     }
@@ -125,6 +126,8 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+
     .header_area {
         padding: 0;
     }
@@ -141,8 +144,9 @@
     #ca-navbar {
         padding: 20px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #6b1f75;
         text-align: left;
+            opacity: 0.8;
     }
     .sing-up-button {
         margin-top: 30px;
