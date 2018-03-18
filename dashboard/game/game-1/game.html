@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Aptitudy </title>
+
+    <meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="#">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+       <!-- Favicon icon -->
+       <link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+       <!-- Google font-->
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+       <!-- Required Fremwork -->
+       <link rel="stylesheet" type="text/css" href="../../../bower_components/bootstrap/css/bootstrap.min.css">
+         <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/slick-carousel/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/slick-carousel/css/slick-theme.css">
+       <!-- themify-icons line icon -->
+       <link rel="stylesheet" type="text/css" href="../../assets/icon/themify-icons/themify-icons.css">
+       <!-- ico font -->
+       <link rel="stylesheet" type="text/css" href="../../assets/icon/icofont/css/icofont.css">
+       <!-- flag icon framework css -->
+       <link rel="stylesheet" type="text/css" href="../../assets/pages/flag-icon/flag-icon.min.css">
+       <!-- Menu-Search css -->
+       <link rel="stylesheet" type="text/css" href="../../assets/pages/menu-search/css/component.css">
+       <!-- Syntax highlighter Prism css -->
+       <link rel="stylesheet" type="text/css" href="../../assets/pages/prism/prism.css">
+       <!-- Style.css -->
+       <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+   
+   
+       <link rel="stylesheet" type="text/css" href="../../assets/css/jquery.mCustomScrollbar.css">
+       <link rel="stylesheet" type="text/css" href="../../assets/css/pcoded-horizontal.min.css">
+
+       <link rel="stylesheet" type="text/css" href="game/css/style.css" />
+       <link rel="stylesheet" type="text/css" href="game/css/commons.css" />
+      
+      </head>
+<!-- Menu horizontal fixed layout -->
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+
+    <div id="pcoded" class="pcoded">
+
+        <div class="pcoded-container">
+            <!-- Menu header start -->
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <a class="mobile-search morphsearch-search" href="#">
+                            <i class="ti-search"></i>
+                        </a>
+                        <a href="index.html">
+                            <img class="img-fluid" src="../../assets/images/logo.png" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li>
+                                <div class="sidebar_toggle">
+                                    <a href="javascript:void(0)">
+                                        <i class="ti-menu"></i>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="ti-fullscreen"></i>
+                                </a>
+                            </li>
+                            <li class="mega-menu-top">
+
+                                <ul class="show-notification row">
+                                    <li class="col-sm-3">
+                                        <h6 class="mega-menu-title">Popular Links</h6>
+                                        <ul class="mega-menu-links">
+                                            <li>
+                                                <a href="form-elements-component.html">Form Elements</a>
+                                            </li>
+                                            <li>
+                                                <a href="button.html">Buttons</a>
+                                            </li>
+                                            <li>
+                                                <a href="map-google.html">Maps</a>
+                                            </li>
+                                            <li>
+                                                <a href="user-card.html">Contact Cards</a>
+                                            </li>
+                                            <li>
+                                                <a href="user-profile.html">User Information</a>
+                                            </li>
+                                            <li>
+                                                <a href="auth-lock-screen.html">Lock Screen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <h6 class="mega-menu-title">Mailbox</h6>
+                                        <ul class="mega-mailbox">
+                                            <li>
+                                                <a href="#" class="media">
+                                                    <div class="media-left">
+                                                        <i class="ti-folder"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>Data Backup</h5>
+                                                        <small class="text-muted">Store your data</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="media">
+                                                    <div class="media-left">
+                                                        <i class="ti-headphone-alt"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>Support</h5>
+                                                        <small class="text-muted">24-hour support</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="media">
+                                                    <div class="media-left">
+                                                        <i class="ti-dropbox"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>Drop-box</h5>
+                                                        <small class="text-muted">Store large amount of data in one-box only
+                                                        </small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="media">
+                                                    <div class="media-left">
+                                                        <i class="ti-location-pin"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>Location</h5>
+                                                        <small class="text-muted">Find Your Location with ease of use</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <h6 class="mega-menu-title">Gallery</h6>
+                                        <div class="row m-b-20">
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/01.jpg" alt="Gallery-1">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/02.jpg" alt="Gallery-2">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/03.jpg" alt="Gallery-3">
+                                            </div>
+                                        </div>
+                                        <div class="row m-b-20">
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/04.jpg" alt="Gallery-4">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/05.jpg" alt="Gallery-5">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img class="img-fluid img-thumbnail" src="../../assets/images/mega-menu/06.jpg" alt="Gallery-6">
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary btn-sm btn-block">Browse Gallery</button>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <h6 class="mega-menu-title">Contact Us</h6>
+                                        <div class="mega-menu-contact">
+                                            <div class="form-group row">
+                                                <label for="example-text-input" class="col-3 col-form-label">Name</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" placeholder="Artisanal kale" id="example-text-input">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="example-search-input" class="col-3 col-form-label">Email</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="email" placeholder="Enter your E-mail Id" id="example-search-input1">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="example-search-input" class="col-3 col-form-label">Contact</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="number" placeholder="+91-9898989898" id="example-search-input">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="exampleTextarea" class="col-3 col-form-label">Message</label>
+                                                <div class="col-9">
+                                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea> </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-12 text-right">
+                                                    <button class="btn btn-primary">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="user-profile header-notification">
+                                <a href="#!">
+                                    <img src="../../assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                    <span>Edú Saldaña</span>
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                    <li>
+                                        <a href="#!">
+                                            <i class="ti-settings"></i> Configuración
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="user-profile.html">
+                                            <i class="ti-user"></i> Perfil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-normal-sign-in.html">
+                                            <i class="ti-layout-sidebar-left"></i> Desconectar
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- Menu header end -->
+            <div class="pcoded-main-container">
+                <nav class="pcoded-navbar">
+                    <div class="pcoded-inner-navbar">
+                        <ul class="pcoded-item pcoded-left-item">
+                            <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)">
+                                    <span class="pcoded-micon">
+                                        <i class="ti-layout-cta-right"></i>
+                                        <b>I</b>
+                                    </span>
+                                    <span class="pcoded-mtext">Inicio</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class="pcoded-hasmenu">
+                                        <a href="javascript:void(0)">
+                                            <span class="pcoded-micon">
+                                                <i class="ti-home"></i>
+                                            </span>
+                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)">
+                                    <span class="pcoded-micon">
+                                        <i class="ti-gift "></i>
+                                        <b>J</b>
+                                    </span>
+                                    <span class="pcoded-mtext">Juegos</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class=" ">
+                                        <a href="../game-list.html" data-i18n="nav.basic-components.alert">
+                                            <span class="pcoded-micon">
+                                                <i class="ti-angle-right"></i>
+                                            </span>
+                                            <span class="pcoded-mtext">Lista de Juegos</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#" data-i18n="nav.basic-components.alert">
+                                            <span class="pcoded-micon">
+                                                <i class="ti-angle-right"></i>
+                                            </span>
+                                            <span class="pcoded-mtext">Mi Avance</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon">
+                                            <i class="ti-gift "></i>
+                                            <b>R</b>
+                                        </span>
+                                        <span class="pcoded-mtext">Retos</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="#" data-i18n="nav.basic-components.alert">
+                                                <span class="pcoded-micon">
+                                                    <i class="ti-angle-right"></i>
+                                                </span>
+                                                <span class="pcoded-mtext">Lista de Retos</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#" data-i18n="nav.basic-components.alert">
+                                                <span class="pcoded-micon">
+                                                    <i class="ti-angle-right"></i>
+                                                </span>
+                                                <span class="pcoded-mtext">Mi Avance</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+                <!-- Sidebar inner chat end-->
+                <div class="pcoded-wrapper">
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <!-- Page-header start -->
+                                    <div class="page-header card m-t-40">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <i class="icofont icofont-restaurant-menu bg-c-pink "></i>
+                                                    <div class="d-inline">
+                                                        <h4>Trivia</h4>
+                                                        <p></p>
+                                                        <h6>Responde a las preguntas y acumula puntos</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item">
+                                                            <a href="index.html">
+                                                                <i class="icofont icofont-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item">
+                                                            <a href="#!">Dashboard</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item">
+                                                            <a href="#!">Juego</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item">
+                                                            <a href="#!">Trivia</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Page-header end -->
+                            <!-- Page body start -->
+                            <div class="page-body">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div id="content"  style="color:#000;">
+
+                                                <form action="" method="post" id='mostrarPregunta'>
+                                                    <button class='btn btn-primary'>
+                                                            <i class='icon icon-eye'></i> Mostrar Siguiente Pregunta
+                                                            <span id='preguntaActual'>0</span>/<span id='numPreguntas'>0</span>
+                                                    </button>
+                                                    Respuestas correctas: <span class='bagge' id='numRespuestasCorrectas'>0</span>
+                                                    , incorrectas <span class='bagge' id='numRespuestasIncorrectas'>0</span>
+                                                </form>
+                                                
+                                                <div id="tablero">
+                                                    <h5 id='pregunta-titulo'>¿Cuando sucedio tal cosa?</h5>
+                                                <div class="progress">
+                                                  <div id='barra-progreso' class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                                  </div>
+                                                </div>
+                                                    <ol id="pregunta-respuestas">
+                                                    </ol>
+                                                    <a href='#' class='btn btn-success' id='btn-responder'>Responder</a> |
+                                                    <a href='#' class='btn btn-warning' id='btn-ceder-turno'>Ceder el turno</a>
+                                                </div>
+                                                
+                                                </div><!-- end content -->
+                                        </div>
+                                    </div>
+                          
+
+                                </div>
+                                <!-- Page body end -->
+                            <!-- Page body end -->
+                                </div>
+                            </div>
+
+                            <!-- 
+                            <div id="styleSelector">
+                            </div>
+                             -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="../../../bower_components/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../../../bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="../../../bower_components/modernizr/js/modernizr.js"></script>
+    <script type="text/javascript" src="../../../bower_components/modernizr/js/css-scrollbars.js"></script>
+
+    <!-- am chart -->
+    <script src="../../assets/pages/widget/amchart/amcharts.min.js"></script>
+    <script src="../../assets/pages/widget/amchart/serial.min.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="../../../bower_components/chart.js/js/Chart.js"></script>
+    <!-- Todo js -->
+    <script type="text/javascript" src="../../assets/pages/todo/todo.js "></script>
+    <!-- barrating js -->
+    <script type="text/javascript" src="../../../bower_components/jquery-bar-rating/js/jquery.barrating.min.js"></script>
+    <script type="text/javascript" src="../../assets/pages/rating/rating.js"></script>
+    <!-- slick js -->
+    <script type="text/javascript" src="../../../bower_components/slick-carousel/js/slick.min.js"></script>
+    <!-- product detail js -->
+    <script type="text/javascript" src="../../assets/pages/product-detail/product-detail.js"></script>
+   
+    <!-- Syntax highlighter prism js -->
+    <script type="text/javascript" src="../../assets/pages/prism/custom-prism.js"></script>
+   
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="../../../bower_components/i18next/js/i18next.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="../../../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
+    <!-- Custom js -->
+
+    <script type="text/javascript" src="../../assets/pages/dashboard/custom-dashboard.js"></script>
+    <script src="../../assets/js/pcoded.min.js"></script>
+    <script src="../../assets/js/menu/menu-hori-fixed.js"></script>
+
+    <script src="../../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/script.js"></script>
+
+    <script type="text/javascript" src="game/js/jueguito-jugar.js"></script>
+    <script type="text/javascript" src="game/js/preguntas.js"></script>
+</body>
+
+</html>

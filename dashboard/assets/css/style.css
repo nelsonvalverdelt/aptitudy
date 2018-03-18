@@ -27,7 +27,7 @@ File: style.css
       Custom css start
 ==========================  **/
 body {
-  background-color: #f3f3f3;
+  background-color: #702365;
   font-size: 0.875em;
   overflow-x: hidden;
   color: #353c4e;
@@ -10213,7 +10213,7 @@ body[themebg-pattern="pattern9"] {
   border-top: 1px solid #444c67;
 }
 .pcoded .pcoded-header .navbar-logo[logo-theme="theme1"] {
-  background-color: #303549;
+  background-color: #5a2475;
 }
 .pcoded .pcoded-header .navbar-logo[logo-theme="theme2"] {
   background-color: #ef5350;
@@ -10877,37 +10877,37 @@ body[themebg-pattern="pattern9"] {
   background: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme1"] a {
-  color: #303548;
+  color: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme1"] .navbar-logo a {
   color: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme2"] {
-  background: #ef5350;
+  background: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme2"] a {
   color: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme3"] {
-  background: #00bcd4;
+  background: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme3"] a {
   color: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme4"] {
-  background: #66bb6a;
+  background: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme4"] a {
   color: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme5"] {
-  background: #4680ff;
+  background: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme5"] a {
   color: #fff;
 }
 .pcoded .pcoded-header[header-theme="theme6"] {
-  background: #303548;
+  background: #5a2475;
 }
 .pcoded .pcoded-header[header-theme="theme6"] a {
   color: #fff;
@@ -11592,6 +11592,10 @@ body.menu-bottom #collapse-menu {
 }
 .btn-primary.btn-mat:before, .sweet-alert button.btn-mat.confirm:before, .wizard > .actions a.btn-mat:before {
   background-color: #0956ff;
+}
+.btn-primary{
+  background-color: #732d96 !important;
+  border-color: #401b53 !important;
 }
 
 .btn-warning.btn-mat {
@@ -14299,6 +14303,71 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 #checkbox-select tr td.select-checkbox:before, #checkbox-select tr td.select-checkbox:after, #checkbox-select tr th.select-checkbox:before, #checkbox-select tr th.select-checkbox:after {
   left: 15px;
 }
+
+.bg-c-verbal {
+  background-color: #ed4e4b;
+}
+.bg-c-mathematical {
+  background-color: #072a96;
+}
+
+.bg-c-naturalist {
+  background-color: #81d347;
+}
+
+.bg-c-kinesthetic{
+  background-color: #0096cb;
+}
+.bg-c-musical{
+  background-color: #e15200;
+}
+
+.bg-c-inter{
+  background-color: #a52db4;
+}
+
+.bg-c-intra{
+  background-color: #cd42a5;
+}
+
+
+.bg-c-visual{
+  background-color: #fcdc00;
+}
+
+
+
+.text-c-verbal {
+  color: #ed4e4b;
+}
+.text-c-mathematical {
+  color: #072a96;
+}
+
+.text-c-naturalist {
+  color: #81d347;
+}
+
+.text-c-kinesthetic{
+  color: #0096cb;
+}
+
+.text-c-musical{
+  color: #e15200;
+}
+
+.text-c-inter{
+  color: #a52db4;
+}
+
+.text-c-intra{
+  color: #cd42a5;
+}
+
+.text-c-visual{
+  color: #fcdc00;
+}
+
 
 .bg-facebook {
   background-color: #3B5997;

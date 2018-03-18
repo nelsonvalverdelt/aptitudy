@@ -14,8 +14,23 @@
     }
     .welcome-thumb {
         width: 50%;
-        bottom: -100px;
-        right: 50px;
+        bottom: 230px;
+        right: -30px;
+    }
+    .get-start-area{
+        margin-top: 340px;
+        
+    }
+    .wellcome-heading > h3 {
+        font-size: 75px;
+        position: absolute;
+        font-weight: 10;
+        width: 50%;
+        top: -104px;
+        left: 20px;
+        z-index: -1;
+        color: #fff;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
     }
     .video-area {
         height: 550px;
@@ -68,8 +83,30 @@
         bottom: -100px;
         right: 0;
     }
+
+    .welcome-thumb {
+        width: 50%;
+        bottom: 230px;
+        right: -30px;
+    }
+    .get-start-area{
+        margin-top: 400px;
+        
+    }
+
     .wellcome-heading {
-        margin-bottom: 70px;
+        margin-bottom: 160px;
+    }
+        .wellcome-heading > h3 {
+        font-size: 65px;
+        position: absolute;
+        font-weight: 10;
+        width: 50%;
+        top: -84px;
+        left: 20px;
+        z-index: -1;
+        color: #fff;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
     }
     .single-special {
         padding: 30px 10px;
@@ -166,9 +203,9 @@
         max-width: 100%;
     }
     .welcome-thumb {
-        width: 90%;
-        bottom: -74px;
-        right: 0;
+        width: 80%;
+        bottom: 300px;
+        right: 20px;
     }
     .logo_area > a > h2 {
         font-size: 40px;
@@ -241,6 +278,27 @@
     }
     .cool_facts_area .col-12:last-of-type .single-cool-fact {
         margin-bottom: 0;
+    }
+
+    
+    .get-start-area{
+        margin-top: 400px;
+        
+    }
+
+    .wellcome-heading {
+        margin-bottom: 160px;
+    }
+        .wellcome-heading > h3 {
+        font-size: 50px;
+        position: absolute;
+        font-weight: 10;
+        width: 90%;
+        top: -84px;
+        left: 20px;
+        z-index: -1;
+        color: #fff;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
     }
 }
 

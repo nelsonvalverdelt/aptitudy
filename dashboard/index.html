@@ -11,8 +11,7 @@
     <meta name="author" content="#">
     <!-- Favicon icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <!-- Google font--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/css/bootstrap.min.css">
     <!-- themify-icons line icon -->
@@ -23,12 +22,13 @@
     <link rel="stylesheet" type="text/css" href="assets/pages/flag-icon/flag-icon.min.css">
     <!-- Menu-Search css -->
     <link rel="stylesheet" type="text/css" href="assets/pages/menu-search/css/component.css">
-    <!-- Syntax highlighter Prism css -->
-    <link rel="stylesheet" type="text/css" href="assets/pages/prism/prism.css">
+    <!-- Chartlist chart css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/chartist/css/chartist.css">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
+    
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pcoded-horizontal.min.css">
 </head>
@@ -229,33 +229,23 @@
                             <li class="user-profile header-notification">
                                 <a href="#!">
                                     <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                                    <span>John Doe</span>
+                                    <span>Edú Saldaña</span>
                                     <i class="ti-angle-down"></i>
                                 </a>
                                 <ul class="show-notification profile-notification">
                                     <li>
                                         <a href="#!">
-                                            <i class="ti-settings"></i> Settings
+                                            <i class="ti-settings"></i> Configuración
                                         </a>
                                     </li>
                                     <li>
                                         <a href="user-profile.html">
-                                            <i class="ti-user"></i> Profile
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="email-inbox.html">
-                                            <i class="ti-email"></i> My Messages
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="auth-lock-screen.html">
-                                            <i class="ti-lock"></i> Lock Screen
+                                            <i class="ti-user"></i> Perfil
                                         </a>
                                     </li>
                                     <li>
                                         <a href="auth-normal-sign-in.html">
-                                            <i class="ti-layout-sidebar-left"></i> Logout
+                                            <i class="ti-layout-sidebar-left"></i> Desconectar
                                         </a>
                                     </li>
                                 </ul>
@@ -275,7 +265,7 @@
                                 <a href="javascript:void(0)">
                                     <span class="pcoded-micon">
                                         <i class="ti-layout-cta-right"></i>
-                                        <b>N</b>
+                                        <b>I</b>
                                     </span>
                                     <span class="pcoded-mtext">Inicio</span>
                                     <span class="pcoded-mcaret"></span>
@@ -304,7 +294,7 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="#" data-i18n="nav.basic-components.alert">
+                                        <a href="game-list.html" data-i18n="nav.basic-components.alert">
                                             <span class="pcoded-micon">
                                                 <i class="ti-angle-right"></i>
                                             </span>
@@ -321,10 +311,38 @@
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
+                                </ul>
                             </li>
-                            </ul>
-                            </li>
-
+                            <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon">
+                                            <i class="ti-gift "></i>
+                                            <b>R</b>
+                                        </span>
+                                        <span class="pcoded-mtext">Retos</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="#" data-i18n="nav.basic-components.alert">
+                                                <span class="pcoded-micon">
+                                                    <i class="ti-angle-right"></i>
+                                                </span>
+                                                <span class="pcoded-mtext">Lista de Retos</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#" data-i18n="nav.basic-components.alert">
+                                                <span class="pcoded-micon">
+                                                    <i class="ti-angle-right"></i>
+                                                </span>
+                                                <span class="pcoded-mtext">Mi Avance</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                         </ul>
                     </div>
                 </nav>
@@ -345,8 +363,9 @@
                                                 <div class="page-header-title">
                                                     <i class="icofont icofont-restaurant-menu bg-c-pink "></i>
                                                     <div class="d-inline">
-                                                        <h4>Horizontal fixed Layout</h4>
-                                                        <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                                                        <h4>Dashboard</h4>
+                                                        <p></p>
+                                                        <h6>Frase del día: "El éxito llega cuando la preparación se encuentra con la oportunidad"</h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -359,13 +378,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="breadcrumb-item">
-                                                            <a href="#!">Page Layouts</a>
-                                                        </li>
-                                                        <li class="breadcrumb-item">
-                                                            <a href="#!">Horizontal</a>
-                                                        </li>
-                                                        <li class="breadcrumb-item">
-                                                            <a href="#!">fixed Layout</a>
+                                                            <a href="#!">Dashboard</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -381,12 +394,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-pie-chart bg-c-blue card1-icon"></i>
-                                                        <span class="text-c-blue f-w-600">Verbal/Lingüistico</span>
+                                                        <img  class="icofont icofont-pie-chart bg-c-verbal card1-icon" src="assets/images/intelligences/mi_verbal.png" >
+                                                        <span class="text-c-verbal f-w-600">Verbal/Lingüistico</span>
                                                         <h4>20%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Get more space
+                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -397,12 +410,13 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-ui-home bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-pink f-w-600">Lógico/Matemático</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-mathematical card1-icon" src="assets/images/intelligences/mi_mathematical.png" >
+                                                
+                                                        <span class="text-c-mathematical f-w-600">Lógico/Matemático</span>
                                                         <h4>10%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-pink f-16 icofont icofont-calendar m-r-10"></i>Last 24 hours
+                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -413,12 +427,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-warning-alt bg-c-green card1-icon"></i>
-                                                        <span class="text-c-green f-w-600">Naturalista</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-naturalist card1-icon" src="assets/images/intelligences/mi_naturalist.png" >
+                                                        <span class="text-c-naturalist f-w-600">Naturalista</span>
                                                         <h4>35%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-green f-16 icofont icofont-tag m-r-10"></i>Tracked from microsoft
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -429,12 +443,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-social-twitter bg-c-yellow card1-icon"></i>
-                                                        <span class="text-c-yellow f-w-600">Kinestésico/Corporal</span>
+                                                            <img  class="icofont icofont-ui-home bg-c-kinesthetic card1-icon" src="assets/images/intelligences/mi_kinesthetic.png" >
+                                                        <span class="text-c-kinesthetic f-w-600">Kinestésico/Corporal</span>
                                                         <h4>21%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-yellow f-16 icofont icofont-refresh m-r-10"></i>Just update
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -445,12 +459,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-pie-chart bg-c-blue card1-icon"></i>
-                                                        <span class="text-c-blue f-w-600">Musical/Rítmica</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-musical card1-icon" src="assets/images/intelligences/mi_musical.png" >
+                                                        <span class="text-c-musical f-w-600">Musical/Rítmica</span>
                                                         <h4>15%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Get more space
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -461,12 +475,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-ui-home bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-pink f-w-600">Interpersonal</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-inter card1-icon" src="assets/images/intelligences/mi_inter.png" >
+                                                        <span class="text-c-inter f-w-600">Interpersonal</span>
                                                         <h4>55%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-pink f-16 icofont icofont-calendar m-r-10"></i>Last 24 hours
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -477,12 +491,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-warning-alt bg-c-green card1-icon"></i>
-                                                        <span class="text-c-green f-w-600">Intrapersonal</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-intra card1-icon" src="assets/images/intelligences/mi_intra.png" >
+                                                        <span class="text-c-intra f-w-600">Intrapersonal</span>
                                                         <h4>10%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-green f-16 icofont icofont-tag m-r-10"></i>Tracked from microsoft
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -493,12 +507,12 @@
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card widget-card-1">
                                                     <div class="card-block-small">
-                                                        <i class="icofont icofont-social-twitter bg-c-yellow card1-icon"></i>
-                                                        <span class="text-c-yellow f-w-600">Visual/Espacial</span>
+                                                        <img  class="icofont icofont-ui-home bg-c-visual card1-icon" src="assets/images/intelligences/mi_visual.png" >
+                                                        <span class="text-c-visual f-w-600">Visual/Espacial</span>
                                                         <h4>25%</h4>
                                                         <div>
                                                             <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-yellow f-16 icofont icofont-refresh m-r-10"></i>Just update
+                                                                    <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Más detalle
                                                             </span>
                                                         </div>
                                                     </div>
@@ -507,34 +521,15 @@
                                             <!-- card1 end -->
 
 
-                                            <div class="col-md-12">
-                                                <div class="card email-sent-card">
-                                                    <div class="card-header ">
-                                                        <div class="card-header-left ">
-                                                            <h5>Product Sale</h5>
-                                                        </div>
-                                                        <div class="card-header-right">
-                                                            <ul class="list-unstyled card-option">
-                                                                <li>
-                                                                    <i class="icofont icofont-simple-left "></i>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="icofont icofont-maximize full-card"></i>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="icofont icofont-minus minimize-card"></i>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="icofont icofont-refresh reload-card"></i>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="icofont icofont-error close-card"></i>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="col-md-12 col-lg-4">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Radar chart</h5>
+                                                        <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                                                        <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
                                                     </div>
                                                     <div class="card-block">
-                                                        <div id="email-sent" style="max-width:100%;height:400px;"></div>
+                                                        <canvas id="radarChart" width="400" height="400"></canvas>
                                                     </div>
                                                 </div>
                                             </div>
@@ -635,24 +630,19 @@
     <script type="text/javascript" src="../bower_components/modernizr/js/modernizr.js"></script>
     <script type="text/javascript" src="../bower_components/modernizr/js/css-scrollbars.js"></script>
 
-    <!-- am chart -->
-    <script src="assets/pages/widget/amchart/amcharts.min.js"></script>
-    <script src="assets/pages/widget/amchart/serial.min.js"></script>
     <!-- Chart js -->
     <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>
-    <!-- Todo js -->
-    <script type="text/javascript" src="assets/pages/todo/todo.js "></script>
 
-    <!-- Syntax highlighter prism js -->
-    <script type="text/javascript" src="assets/pages/prism/custom-prism.js"></script>
+
     <!-- i18next.min.js -->
     <script type="text/javascript" src="../bower_components/i18next/js/i18next.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
     <script type="text/javascript" src="../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
     <!-- Custom js -->
+    <script type="text/javascript" src="assets/pages/chart/chartjs/chartjs-custom.js"></script>
+    <script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.js"></script>
 
-    <script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.min.js"></script>
     <script src="assets/js/pcoded.min.js"></script>
     <script src="assets/js/menu/menu-hori-fixed.js"></script>
 

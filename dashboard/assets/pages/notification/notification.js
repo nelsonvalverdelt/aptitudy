@@ -7,7 +7,7 @@ $(window).on('load',function(){
         },{
             type: type,
             allow_dismiss: false,
-            label: 'Cancel',
+            label: 'Cancelar',
             className: 'btn-xs btn-inverse',
             placement: {
                 from: 'bottom',
@@ -26,7 +26,7 @@ $(window).on('load',function(){
     };
 
    
-        notify('Welcome to Notification page', 'inverse');
+        notify('Bienvenido a Aptitudy', 'inverse');
    
 });
 
@@ -70,7 +70,7 @@ $(document).ready(function() {
             template: '<div data-growl="container" class="alert" role="alert">' +
             '<button type="button" class="close" data-growl="dismiss">' +
             '<span aria-hidden="true">&times;</span>' +
-            '<span class="sr-only">Close</span>' +
+            '<span class="sr-only">Cerrar</span>' +
             '</button>' +
             '<span data-growl="icon"></span>' +
             '<span data-growl="title"></span>' +

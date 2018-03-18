@@ -237,7 +237,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #a0248f;
+    color: #5a2475;
     font-size: 48px;
     margin: 0;
 }
@@ -403,7 +403,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #6b1f75;
+    background-color: #5a2475;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -451,7 +451,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
+    bottom: 130px;
     right: 85px;
     z-index: 9;
 }
@@ -497,7 +497,9 @@ p {
     color: #cec1f4;
     opacity: 1;
 }
-
+.get-start-area{
+    margin-top: 220px;
+}
 .get-start-area .email:focus {
     border: none;
     outline-offset: transparent !important;
@@ -519,7 +521,7 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background: #5a2475;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -534,14 +536,14 @@ p {
 }
 
 .wellcome-heading > h3 {
-    font-size: 332px;
+    font-size: 75px;
     position: absolute;
-    top: -134px;
-    font-weight: 900;
+    font-weight: 10;
+    width: 50%;
+    top: -104px;
     left: -12px;
     z-index: -1;
     color: #fff;
-    opacity: .1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
@@ -560,7 +562,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #653b7b;
+    color: #5a2475;
 }
 
 .single-icon {
@@ -569,7 +571,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #653b7b;
+    color: #5a2475;
     margin-bottom: 15px;
 }
 
@@ -584,7 +586,7 @@ p {
 }
 
 .special_description_content > h2 {
-    color: #a0248f;
+    color: #5a2475;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -688,7 +690,7 @@ p {
 
 .single-feature > h5 {
     font-size: 22px;
-    color: #653b7b;
+    color: #5a2475;
 }
 
 .single-feature > p {
@@ -754,16 +756,18 @@ p {
 -------------------------- */
 
 .cool_facts_area {
+
+    
     position: relative;
     z-index: auto;
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #5a2475;
+    background: -webkit-linear-gradient(to left, #8220b3, #5a2475);
+    background: -webkit-linear-gradient(right, #8220b3, #5a2475);
+    background: -webkit-gradient(linear, right top, left top, from(#8220b3), to(#5a2475));
+    background: -o-linear-gradient(right, #8220b3, #5a2475);
+    background: linear-gradient(to left, #8220b3, #5a2475);
     padding: 180px 0 80px 0;
-    top: -100px;
+    top: 0;
 }
 
 
@@ -868,7 +872,7 @@ p {
 }
 
 .single-price-plan .package-plan > h5 {
-    color: #653b7b;
+    color: #5a2475;
     font-size: 18px;
 }
 
@@ -915,7 +919,7 @@ p {
 .single-price-plan.active .package-plan,
 .single-price-plan.active .plan-button > a,
 .single-price-plan:hover .plan-button > a {
-    background-color: #653b7b;
+    background-color: #5a2475;
 }
 
 .single-price-plan.active .package-plan .ca-price > h4,
@@ -930,7 +934,7 @@ p {
 -------------------------- */
 
 .clients-feedback-area .client-name > h5 {
-    color: #653b7b;
+    color: #5a2475;
     font-size: 22px;
     margin-top: 5px;
 }
@@ -949,7 +953,7 @@ p {
 
 .clients-feedback-area .client > i {
     font-size: 48px;
-    color: #653b7b;
+    color: #5a2475;
     margin-bottom: 30px;
 }
 
@@ -1043,12 +1047,12 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #653b7b;
-    background: -webkit-linear-gradient(to left, #8220b3, #653b7b);
-    background: -webkit-linear-gradient(right, #8220b3, #653b7b);
-    background: -webkit-gradient(linear, right top, left top, from(#8220b3), to(#653b7b));
-    background: -o-linear-gradient(right, #8220b3, #653b7b);
-    background: linear-gradient(to left, #8220b3, #653b7b);
+    background: #5a2475;
+    background: -webkit-linear-gradient(to left, #8220b3, #5a2475);
+    background: -webkit-linear-gradient(right, #8220b3, #5a2475);
+    background: -webkit-gradient(linear, right top, left top, from(#8220b3), to(#5a2475));
+    background: -o-linear-gradient(right, #8220b3, #5a2475);
+    background: linear-gradient(to left, #8220b3, #5a2475);
 }
 
 .membership-description > h2 {
@@ -1106,7 +1110,7 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #653b7b;
+    color: #5a2475;
 }
 
 .member-text > p {
@@ -1245,13 +1249,13 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #653b7b;
+    color: #5a2475;
     font-size: 72px;
     font-weight: 700;
 }
 
 .team-social-icon > a > i {
-    background: #653b7b;
+    background: #5a2475;
     font-size: 14px;
     color: #ffffff;
     height: 40px;

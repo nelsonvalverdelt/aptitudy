@@ -11,7 +11,7 @@ $(document).ready(function() {
             "hideCredits": true,
             "marginRight": 0,
             "dataProvider": [{
-                "year": "Jan",
+                "year": "Ene",
                 "value": 0.98
             }, {
                 "year": "Feb",
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 "year": "Mar",
                 "value": 0.97
             }, {
-                "year": "Apr",
+                "year": "Abr",
                 "value": 1.64
             }, {
                 "year": "May",
@@ -32,10 +32,10 @@ $(document).ready(function() {
                 "year": "Jul",
                 "value": 5.2
             }, {
-                "year": "Aug",
+                "year": "Ago",
                 "value": 0.77
             }, {
-                "year": "Sap",
+                "year": "Sep",
                 "value": 3.1
             }],
             "valueAxes": [{
@@ -111,7 +111,7 @@ $(document).ready(function() {
                 "fillColors": "#4680ff",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Actual Sales",
+                "title": "Actual",
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
@@ -124,7 +124,7 @@ $(document).ready(function() {
                 "fillColors": "#FC6180",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Target Sales",
+                "title": "Inteligencia Objetivo",
                 "valueField": "sales1",
                 "clustered": true,
                 "columnWidth": 0.4,
@@ -142,7 +142,7 @@ $(document).ready(function() {
                 "dashLength": 10,
                 "lineColor": "#93BE52",
                 "type": "smoothedLine",
-                "title": "Market Days",
+                "title": "Punto del Día",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market1",
                 "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]</b>"
@@ -153,7 +153,7 @@ $(document).ready(function() {
                 "fillColors": "#FFB64D",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Actual Sales",
+                "title": "Actual",
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
@@ -249,7 +249,7 @@ $(document).ready(function() {
                 f = "rgba(0,0,0,0)";
             }
             return {
-                labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October"],
+                labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre"],
                 datasets: [{
                     label: "",
                     borderColor: a,
@@ -299,7 +299,7 @@ $(document).ready(function() {
                         gridLines: !1,
                         scaleLabel: {
                             display: !0,
-                            labelString: "Month"
+                            labelString: "Mes"
                         }
                     }],
                     yAxes: [{
