@@ -467,7 +467,9 @@ p {
     font-weight: 700;
     position: relative;
     z-index: 3;
+
 }
+
 
 .get-start-area .email {
     background: #fff;
@@ -530,26 +532,40 @@ p {
 }
 
 .wellcome-heading > p {
+
     color: #fff;
     font-weight: 500x;
     font-size: 25px;
+    margin-bottom: -220px;
 }
 
 .wellcome-heading > h3 {
     font-size: 75px;
     position: absolute;
     font-weight: 10;
-    width: 50%;
-    top: -104px;
-    left: -12px;
+    width: 54%;
+    top: -120px;
+    left: -26px;
     z-index: -1;
     color: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+   
 }
-
+.wellcome-heading > h5 {
+    font-size: 20px;
+    position: absolute;
+    font-weight: 10;
+    width: 50%;
+    top: 160px;
+    left: -20px;
+    z-index: -1;
+    color: #fff;
+   
+}
 .wellcome-heading {
     margin-bottom: 100px;
 }
+
+
 
 /* --------------------------
 :: 4.0 Special Area CSS
