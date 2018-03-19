@@ -830,12 +830,14 @@ p {
     padding: 0 6%;
 }
 
+
 .app_screenshots_slides .single-shot {
-    opacity: 0.7;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
-    transform: scale(0.85)
+    transform: scale(0.85);
+
+
 }
 
 .app_screenshots_slides .center .single-shot {
@@ -843,7 +845,7 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1)
+    transform: scale(1);
 }
 
 .app-screenshots-area .owl-dot {
@@ -859,12 +861,14 @@ p {
 .app-screenshots-area .owl-dot.active {
     background-color: #fb397d;
     border: transparent;
+    
 }
 
 .app-screenshots-area .owl-dots {
     height: 100%;
     width: 100%;
     text-align: center;
+
 }
 
 /* --------------------------
@@ -1185,6 +1189,36 @@ p {
     margin: 2.5px;
 }
 
+.team-social-icon-aptitudy {
+    position: absolute;
+    z-index: 5;
+    top: 80px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.team-social-icon-aptitudy > a {
+    font-size: 14px;
+    color: #fff;
+    background: #5a2575;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px 10px 10px 0;
+    display: block;
+    margin: 2.5px;
+}
 .single-team-member {
     margin-bottom: 50px;
 }

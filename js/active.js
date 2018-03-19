@@ -28,7 +28,7 @@
             loop: true,
             autoplay: true,
             smartSpeed: 800,
-            margin: 30,
+            margin: 180,
             center: true,
             dots: true,
             responsive: {
@@ -36,10 +36,10 @@
                     items: 1
                 },
                 480: {
-                    items: 3
+                    items: 2
                 },
                 992: {
-                    items: 5
+                    items: 2
                 }
             }
         });
